@@ -46,12 +46,40 @@ namespace My_Transcript
             this.tabPageYear1Sam1 = new System.Windows.Forms.TabPage();
             this.tabPageYear1Sam2 = new System.Windows.Forms.TabPage();
             this.dataGridViewY1S2 = new System.Windows.Forms.DataGridView();
+            this.tabPageYear2Sam1 = new System.Windows.Forms.TabPage();
+            this.tabPageYear2Sam2 = new System.Windows.Forms.TabPage();
+            this.tabPageYear2Sam3 = new System.Windows.Forms.TabPage();
+            this.dataGridViewY2S1 = new System.Windows.Forms.DataGridView();
+            this.dataGridViewY2S2 = new System.Windows.Forms.DataGridView();
+            this.dataGridViewY2S3 = new System.Windows.Forms.DataGridView();
+            this.tabPageYear3Sam1 = new System.Windows.Forms.TabPage();
+            this.tabPageYear3Sam2 = new System.Windows.Forms.TabPage();
+            this.tabPageYear4Sam1 = new System.Windows.Forms.TabPage();
+            this.tabPageYear4Sam2 = new System.Windows.Forms.TabPage();
+            this.dataGridViewY3S1 = new System.Windows.Forms.DataGridView();
+            this.dataGridViewY3S2 = new System.Windows.Forms.DataGridView();
+            this.dataGridViewY4S1 = new System.Windows.Forms.DataGridView();
+            this.dataGridViewY4S2 = new System.Windows.Forms.DataGridView();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewY1S1)).BeginInit();
             this.tabControl1.SuspendLayout();
             this.tabPageYear1Sam1.SuspendLayout();
             this.tabPageYear1Sam2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewY1S2)).BeginInit();
+            this.tabPageYear2Sam1.SuspendLayout();
+            this.tabPageYear2Sam2.SuspendLayout();
+            this.tabPageYear2Sam3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewY2S1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewY2S2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewY2S3)).BeginInit();
+            this.tabPageYear3Sam1.SuspendLayout();
+            this.tabPageYear3Sam2.SuspendLayout();
+            this.tabPageYear4Sam1.SuspendLayout();
+            this.tabPageYear4Sam2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewY3S1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewY3S2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewY4S1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewY4S2)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -192,6 +220,13 @@ namespace My_Transcript
             // 
             this.tabControl1.Controls.Add(this.tabPageYear1Sam1);
             this.tabControl1.Controls.Add(this.tabPageYear1Sam2);
+            this.tabControl1.Controls.Add(this.tabPageYear2Sam1);
+            this.tabControl1.Controls.Add(this.tabPageYear2Sam2);
+            this.tabControl1.Controls.Add(this.tabPageYear2Sam3);
+            this.tabControl1.Controls.Add(this.tabPageYear3Sam1);
+            this.tabControl1.Controls.Add(this.tabPageYear3Sam2);
+            this.tabControl1.Controls.Add(this.tabPageYear4Sam1);
+            this.tabControl1.Controls.Add(this.tabPageYear4Sam2);
             this.tabControl1.Location = new System.Drawing.Point(66, 101);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
@@ -231,6 +266,160 @@ namespace My_Transcript
             this.dataGridViewY1S2.Size = new System.Drawing.Size(997, 312);
             this.dataGridViewY1S2.TabIndex = 0;
             // 
+            // tabPageYear2Sam1
+            // 
+            this.tabPageYear2Sam1.Controls.Add(this.dataGridViewY2S1);
+            this.tabPageYear2Sam1.Location = new System.Drawing.Point(4, 25);
+            this.tabPageYear2Sam1.Name = "tabPageYear2Sam1";
+            this.tabPageYear2Sam1.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPageYear2Sam1.Size = new System.Drawing.Size(1003, 318);
+            this.tabPageYear2Sam1.TabIndex = 2;
+            this.tabPageYear2Sam1.Text = "Year 2 Sam 1";
+            this.tabPageYear2Sam1.UseVisualStyleBackColor = true;
+            // 
+            // tabPageYear2Sam2
+            // 
+            this.tabPageYear2Sam2.Controls.Add(this.dataGridViewY2S2);
+            this.tabPageYear2Sam2.Location = new System.Drawing.Point(4, 25);
+            this.tabPageYear2Sam2.Name = "tabPageYear2Sam2";
+            this.tabPageYear2Sam2.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPageYear2Sam2.Size = new System.Drawing.Size(1003, 318);
+            this.tabPageYear2Sam2.TabIndex = 3;
+            this.tabPageYear2Sam2.Text = "Year 2 Sam 2";
+            this.tabPageYear2Sam2.UseVisualStyleBackColor = true;
+            // 
+            // tabPageYear2Sam3
+            // 
+            this.tabPageYear2Sam3.Controls.Add(this.dataGridViewY2S3);
+            this.tabPageYear2Sam3.Location = new System.Drawing.Point(4, 25);
+            this.tabPageYear2Sam3.Name = "tabPageYear2Sam3";
+            this.tabPageYear2Sam3.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPageYear2Sam3.Size = new System.Drawing.Size(1003, 318);
+            this.tabPageYear2Sam3.TabIndex = 4;
+            this.tabPageYear2Sam3.Text = "Year 2 Sam 3";
+            this.tabPageYear2Sam3.UseVisualStyleBackColor = true;
+            // 
+            // dataGridViewY2S1
+            // 
+            this.dataGridViewY2S1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridViewY2S1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dataGridViewY2S1.Location = new System.Drawing.Point(3, 3);
+            this.dataGridViewY2S1.Name = "dataGridViewY2S1";
+            this.dataGridViewY2S1.RowHeadersWidth = 51;
+            this.dataGridViewY2S1.RowTemplate.Height = 24;
+            this.dataGridViewY2S1.Size = new System.Drawing.Size(997, 312);
+            this.dataGridViewY2S1.TabIndex = 0;
+            // 
+            // dataGridViewY2S2
+            // 
+            this.dataGridViewY2S2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridViewY2S2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dataGridViewY2S2.Location = new System.Drawing.Point(3, 3);
+            this.dataGridViewY2S2.Name = "dataGridViewY2S2";
+            this.dataGridViewY2S2.RowHeadersWidth = 51;
+            this.dataGridViewY2S2.RowTemplate.Height = 24;
+            this.dataGridViewY2S2.Size = new System.Drawing.Size(997, 312);
+            this.dataGridViewY2S2.TabIndex = 0;
+            // 
+            // dataGridViewY2S3
+            // 
+            this.dataGridViewY2S3.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridViewY2S3.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dataGridViewY2S3.Location = new System.Drawing.Point(3, 3);
+            this.dataGridViewY2S3.Name = "dataGridViewY2S3";
+            this.dataGridViewY2S3.RowHeadersWidth = 51;
+            this.dataGridViewY2S3.RowTemplate.Height = 24;
+            this.dataGridViewY2S3.Size = new System.Drawing.Size(997, 312);
+            this.dataGridViewY2S3.TabIndex = 0;
+            // 
+            // tabPageYear3Sam1
+            // 
+            this.tabPageYear3Sam1.Controls.Add(this.dataGridViewY3S1);
+            this.tabPageYear3Sam1.Location = new System.Drawing.Point(4, 25);
+            this.tabPageYear3Sam1.Name = "tabPageYear3Sam1";
+            this.tabPageYear3Sam1.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPageYear3Sam1.Size = new System.Drawing.Size(1003, 318);
+            this.tabPageYear3Sam1.TabIndex = 5;
+            this.tabPageYear3Sam1.Text = "Year 3 Sam 1";
+            this.tabPageYear3Sam1.UseVisualStyleBackColor = true;
+            // 
+            // tabPageYear3Sam2
+            // 
+            this.tabPageYear3Sam2.Controls.Add(this.dataGridViewY3S2);
+            this.tabPageYear3Sam2.Location = new System.Drawing.Point(4, 25);
+            this.tabPageYear3Sam2.Name = "tabPageYear3Sam2";
+            this.tabPageYear3Sam2.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPageYear3Sam2.Size = new System.Drawing.Size(1003, 318);
+            this.tabPageYear3Sam2.TabIndex = 6;
+            this.tabPageYear3Sam2.Text = "Year 3 Sam 2";
+            this.tabPageYear3Sam2.UseVisualStyleBackColor = true;
+            // 
+            // tabPageYear4Sam1
+            // 
+            this.tabPageYear4Sam1.Controls.Add(this.dataGridViewY4S1);
+            this.tabPageYear4Sam1.Location = new System.Drawing.Point(4, 25);
+            this.tabPageYear4Sam1.Name = "tabPageYear4Sam1";
+            this.tabPageYear4Sam1.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPageYear4Sam1.Size = new System.Drawing.Size(1003, 318);
+            this.tabPageYear4Sam1.TabIndex = 7;
+            this.tabPageYear4Sam1.Text = "Year 4 Sam 1";
+            this.tabPageYear4Sam1.UseVisualStyleBackColor = true;
+            // 
+            // tabPageYear4Sam2
+            // 
+            this.tabPageYear4Sam2.Controls.Add(this.dataGridViewY4S2);
+            this.tabPageYear4Sam2.Location = new System.Drawing.Point(4, 25);
+            this.tabPageYear4Sam2.Name = "tabPageYear4Sam2";
+            this.tabPageYear4Sam2.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPageYear4Sam2.Size = new System.Drawing.Size(1003, 318);
+            this.tabPageYear4Sam2.TabIndex = 8;
+            this.tabPageYear4Sam2.Text = "Year 4 Sam 2";
+            this.tabPageYear4Sam2.UseVisualStyleBackColor = true;
+            // 
+            // dataGridViewY3S1
+            // 
+            this.dataGridViewY3S1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridViewY3S1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dataGridViewY3S1.Location = new System.Drawing.Point(3, 3);
+            this.dataGridViewY3S1.Name = "dataGridViewY3S1";
+            this.dataGridViewY3S1.RowHeadersWidth = 51;
+            this.dataGridViewY3S1.RowTemplate.Height = 24;
+            this.dataGridViewY3S1.Size = new System.Drawing.Size(997, 312);
+            this.dataGridViewY3S1.TabIndex = 0;
+            // 
+            // dataGridViewY3S2
+            // 
+            this.dataGridViewY3S2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridViewY3S2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dataGridViewY3S2.Location = new System.Drawing.Point(3, 3);
+            this.dataGridViewY3S2.Name = "dataGridViewY3S2";
+            this.dataGridViewY3S2.RowHeadersWidth = 51;
+            this.dataGridViewY3S2.RowTemplate.Height = 24;
+            this.dataGridViewY3S2.Size = new System.Drawing.Size(997, 312);
+            this.dataGridViewY3S2.TabIndex = 0;
+            // 
+            // dataGridViewY4S1
+            // 
+            this.dataGridViewY4S1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridViewY4S1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dataGridViewY4S1.Location = new System.Drawing.Point(3, 3);
+            this.dataGridViewY4S1.Name = "dataGridViewY4S1";
+            this.dataGridViewY4S1.RowHeadersWidth = 51;
+            this.dataGridViewY4S1.RowTemplate.Height = 24;
+            this.dataGridViewY4S1.Size = new System.Drawing.Size(997, 312);
+            this.dataGridViewY4S1.TabIndex = 0;
+            // 
+            // dataGridViewY4S2
+            // 
+            this.dataGridViewY4S2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridViewY4S2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dataGridViewY4S2.Location = new System.Drawing.Point(3, 3);
+            this.dataGridViewY4S2.Name = "dataGridViewY4S2";
+            this.dataGridViewY4S2.RowHeadersWidth = 51;
+            this.dataGridViewY4S2.RowTemplate.Height = 24;
+            this.dataGridViewY4S2.Size = new System.Drawing.Size(997, 312);
+            this.dataGridViewY4S2.TabIndex = 0;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -249,6 +438,20 @@ namespace My_Transcript
             this.tabPageYear1Sam1.ResumeLayout(false);
             this.tabPageYear1Sam2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewY1S2)).EndInit();
+            this.tabPageYear2Sam1.ResumeLayout(false);
+            this.tabPageYear2Sam2.ResumeLayout(false);
+            this.tabPageYear2Sam3.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewY2S1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewY2S2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewY2S3)).EndInit();
+            this.tabPageYear3Sam1.ResumeLayout(false);
+            this.tabPageYear3Sam2.ResumeLayout(false);
+            this.tabPageYear4Sam1.ResumeLayout(false);
+            this.tabPageYear4Sam2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewY3S1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewY3S2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewY4S1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewY4S2)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -272,6 +475,20 @@ namespace My_Transcript
         private System.Windows.Forms.TabPage tabPageYear1Sam1;
         private System.Windows.Forms.TabPage tabPageYear1Sam2;
         private System.Windows.Forms.DataGridView dataGridViewY1S2;
+        private System.Windows.Forms.TabPage tabPageYear2Sam1;
+        private System.Windows.Forms.DataGridView dataGridViewY2S1;
+        private System.Windows.Forms.TabPage tabPageYear2Sam2;
+        private System.Windows.Forms.DataGridView dataGridViewY2S2;
+        private System.Windows.Forms.TabPage tabPageYear2Sam3;
+        private System.Windows.Forms.DataGridView dataGridViewY2S3;
+        private System.Windows.Forms.TabPage tabPageYear3Sam1;
+        private System.Windows.Forms.DataGridView dataGridViewY3S1;
+        private System.Windows.Forms.TabPage tabPageYear3Sam2;
+        private System.Windows.Forms.DataGridView dataGridViewY3S2;
+        private System.Windows.Forms.TabPage tabPageYear4Sam1;
+        private System.Windows.Forms.DataGridView dataGridViewY4S1;
+        private System.Windows.Forms.TabPage tabPageYear4Sam2;
+        private System.Windows.Forms.DataGridView dataGridViewY4S2;
     }
 }
 
