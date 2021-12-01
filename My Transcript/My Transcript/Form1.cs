@@ -24,7 +24,7 @@ namespace My_Transcript
             Course newCourse = new Course();
             newCourse.CourseID = textBoxCourseID.Text;
             newCourse.CourseName = textBoxCourseName.Text;
-            newCourse.CourseCredit = textBoxCourseID.Text;
+            newCourse.CourseCredit = textBoxCredit.Text;
             newCourse.Grade = textBoxGrade.Text;
 
             dataGridViewCourse.DataSource = null;
